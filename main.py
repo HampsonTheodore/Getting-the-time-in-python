@@ -3,7 +3,7 @@ from datetime import date
 
 today = date.today()
 
-# dd/mm/YY
+# dd/mm/YY (In numbers )
 d1 = today.strftime("%d/%m/%Y")
 print("d1 =", d1)
 
@@ -15,6 +15,6 @@ print("d2 =", d2)
 d3 = today.strftime("%m/%d/%y")
 print("d3 =", d3)
 
-# Month abbreviation, day and year	
+# Month abbreviated, day and year	in numbers
 d4 = today.strftime("%b-%d-%Y")
 print("d4 =", d4)
