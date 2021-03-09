@@ -7,7 +7,7 @@ today = date.today()
 d1 = today.strftime("%d/%m/%Y")
 print("d1 =", d1)
 
-# Textual month, day and year	
+# month, day, and year In text	
 d2 = today.strftime("%B %d, %Y")
 print("d2 =", d2)
 
