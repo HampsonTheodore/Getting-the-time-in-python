@@ -18,3 +18,20 @@ print("d3 =", d3)
 # Month abbreviated, day and year	in numbers
 d4 = today.strftime("%b-%d-%Y")
 print("d4 =", d4)
+
+
+
+10
+#printing current year, month, day, hour, and minutes in python
+
+import datetime
+ 
+
+currentDT = datetime.datetime.now()
+ 
+print ("Current Year is: %d" % currentDT.year)
+print ("Current Month is: %d" % currentDT.month)
+print ("Current Day is: %d" % currentDT.day)
+print ("Current Hour is: %d" % currentDT.hour)
+print ("Current Minute is: %d" % currentDT.minute)
+
